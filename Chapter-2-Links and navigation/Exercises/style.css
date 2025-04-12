@@ -1,125 +1,137 @@
+/* Resetting default styles for all elements */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to bottom, #00274D 0%, #FF6600 2%, #111 100%);
-    color: #fff;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  nav {
-    background-color: #011c36;
-    padding: 1em 2em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-  }
-  
-  .nav-links {
-    display: flex;
-    gap: 1.2em;
-  }
-  
-  .nav-links a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-  }
-  
-  .nav-links a:hover {
-    color: #FF6600;
-  }
-  
-  .button-link {
-    background-color: #FF6600;
-    padding: 0.5em 1.2em;
-    border-radius: 25px;
-    color: white !important;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s;
-  }
-  
-  .button-link:hover {
-    background-color: #cc5200;
-  }
-  
-  header {
-    background-color: #00274D; /* Gulf Blue */
-    text-align: center;
-    padding: 3em 1em 2em;
-    border-bottom: 5px solid #FF6600; /* Orange line under */
-    box-shadow: 0 8px 20px rgba(255, 102, 0, 0.2);
-  }
-  
-  header h1 {
-    font-size: 3em;
-    letter-spacing: 2px;
-    color: white;
-  }
-  
-  main {
-    flex: 1;
-    padding: 2em;
-    background: linear-gradient(to bottom, rgba(17,17,17,1), rgba(17,0,0,1));
-  }
-  
-  section {
-    margin-bottom: 2em;
-    padding: 1.5em;
-    background-color: rgba(255, 255, 255, 0.05);
-    border-left: 5px solid #FF6600;
-    border-radius: 8px;
-  }
-  
-  h2 {
-    color: #002347; 
-    margin-bottom: 0.5em;
-  }  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  h3 {
-    color:rgb(255, 206, 171);
-    margin-bottom: 0.2em;
-  }
+/* Basic styles for the body, including font, background, and layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #00274D 0%, #FF6600 2%, #111 100%); /* Gulf Blue to orange gradient */
+  color: #fff; /* White text */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
-  h4 {
-    color:rgb(255, 206, 171);
-    margin-bottom: 0.2em;
-  }
-  
-  a.back-button {
-    display: inline-block;
-    margin-top: 2em;
-    background-color: #FF6600;
-    color: white;
-    padding: 0.6em 1.4em;
-    text-decoration: none;
-    border-radius: 10px;
-    font-weight: bold;
-    transition: background 0.3s;
-  }
-  
-  a.back-button:hover {
-    background-color: #cc5200;
-  }
+/* Navigation bar styles */
+nav {
+  background-color: #011c36; /* Dark background color */
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between; /* Space between the links and button */
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3); /* Subtle shadow for the navbar */
+}
 
-  footer {
-    position: fixed;
-    bottom: 10px;
-    right: 20px;
-    color: rgba(255, 132, 0, 0.64);
-    font-size: 0.85em;
-    font-family: 'Segoe UI', sans-serif;
-    line-height: 1.4;
-    text-align: right;
-    z-index: 100;
-  }
-  
+/* Container for navigation links */
+.nav-links {
+  display: flex;
+  gap: 1.2em; /* Space between links */
+}
+
+/* Styling for each navigation link */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+/* Hover effect for navigation links */
+.nav-links a:hover {
+  color: #FF6600; /* Change color to orange on hover */
+}
+
+/* Button linking back to homepage */
+.button-link {
+  background-color: #FF6600; /* Orange background */
+  padding: 0.5em 1.2em;
+  border-radius: 25px;
+  color: white !important;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Hover effect for back to home button */
+.button-link:hover {
+  background-color: #cc5200; /* Darker orange on hover */
+}
+
+/* Header section styles */
+header {
+  background-color: #00274D; /* Gulf Blue */
+  text-align: center;
+  padding: 3em 1em 2em;
+  border-bottom: 5px solid #FF6600; /* Orange line under header */
+  box-shadow: 0 8px 20px rgba(255, 102, 0, 0.2); /* Light shadow */
+}
+
+/* Styling for the main heading in the header */
+header h1 {
+  font-size: 3em;
+  letter-spacing: 2px;
+  color: white;
+}
+
+/* Main content area layout */
+main {
+  flex: 1; /* Allows the main section to take available space */
+  padding: 2em;
+  background: linear-gradient(to bottom, rgba(17,17,17,1), rgba(17,0,0,1)); /* Dark gradient background */
+}
+
+/* Section styles for each page section */
+section {
+  margin-bottom: 2em;
+  padding: 1.5em;
+  background-color: rgba(255, 255, 255, 0.05); /* Semi-transparent background */
+  border-left: 5px solid #FF6600; /* Orange border on the left */
+  border-radius: 8px;
+}
+
+/* Heading styles for section titles */
+h2 {
+  color: #002347; /* Dark blue color for section headings */
+  margin-bottom: 0.5em;
+}
+
+h3, h4 {
+  color: rgb(255, 206, 171); /* Light golden color for subheadings */
+  margin-bottom: 0.2em;
+}
+
+/* Back button styling */
+a.back-button {
+  display: inline-block;
+  margin-top: 2em;
+  background-color: #FF6600; /* Orange background */
+  color: white;
+  padding: 0.6em 1.4em;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background 0.3s; /* Smooth transition for background color */
+}
+
+/* Hover effect for back button */
+a.back-button:hover {
+  background-color: #cc5200; /* Darker orange on hover */
+}
+
+/* Footer styling, fixed to the bottom of the page */
+footer {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  color: rgba(255, 132, 0, 0.64); /* Light orange color for footer text */
+  font-size: 0.85em;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.4;
+  text-align: right;
+  z-index: 100; /* Ensure footer is above other elements */
+}
+
+/* (¬‿¬) */
