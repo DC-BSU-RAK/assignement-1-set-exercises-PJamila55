@@ -1,33 +1,47 @@
-# Further Reading
+# Chapter 4 Exercises
+Each chapter includes one mandatory and one bonus exercise. The mandatory exercise is indicated with a :ballot_box_with_check: and must be completed as part of the Set Exercises assessment. The bonus exercise is optional but completing it opens up the possibility of achieving a grade in the higher mark boundaries.
 
-## HTML Essential Training (Lynda)
+For each exercise you should create a new folder with the name of the exercise and save it to this exercises folder in your local repository. Once you have completed your solution you should make sure you commit and push your work to GitHub. You can commit and push as many changes to your solutions as you wish; only those pushed before the deadlines will be marked.
 
-### Chapter 8: Putting It All Together ()
+## Assessment Exercises
 
-- Document Head (5m 1s)
-- Structuring content (4m 14s)
-- Examples of putting it all together (1m 6s)
+### Structuring a webpage :ballot_box_with_check:
 
-## MDN Web Docs
+Using the website reference image below, code this website (focussing on proper structural markup). Your work doesn't need to be exact in attempting to recreate the padding, margins etc., but you do need to recreate the layout of the page exactly, using the structural elements you've been taught. You must include:
 
-- [Document and website structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
-- [What is accessibility?](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility)
-- [HTML: A good basis for accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
-- [Normal flow](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow)
-- [Floats](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats)
-- [Positioning](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning)
+- Header;
+- Navigation menu;
+- The main "Welcome" content;
+- "Line Up" content, including two square images underneath the text;
+- Footer;
+- index.html and style.css files.
 
-## W3Schools
+These tags might come in useful: `<header>` `<nav>` `<main>` `<section>` `<article>` `<div>` `<aside>` `<footer>`
 
-- [HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
-- [CSS Navigation Bar](https://www.w3schools.com/css/css_navbar.asp)
-- [CSS Dropdowns](https://www.w3schools.com/css/css_dropdowns.asp)
+- Logo and Heading font: "Tahoma", 700 (Apple users, you may have a tad bit more work to do here)
+- Body font: "Arial", 400
+- Header: #17072b
+- Sidebar: #172d67
+- Footer: #8c15e9
+- Text: #000000 and #FFFFFF
 
-## freeCodeCamp
+- Welcome text: Digi Fest is a celebration of digital and technology in the city of Cardiff. This year, we are celebrating ‘collaboration’, so come and find out about the latest collaborations that are happening in this historic and innovative city. They promise an educational and inspirational packed programme for all.
 
-- [What is a Wireframe?](https://www.freecodecamp.org/news/what-is-a-wireframe-ux-design-tutorial-website/)
-- [Fundamental design principles for non-designers](https://www.freecodecamp.org/news/fundamental-design-principles-for-non-designers-ad34c30caa7/)
+![image](DigiFest.jpg)
 
-## Hubspot
+<hr>
 
-- [The Beginner's Guide to Typography in Web Design](https://blog.hubspot.com/website/website-typography)
+### Study planner (Bonus - Optional)
+
+Imagine you have been employed to build a single-page web application that manages a study plan for the Web Development module on the Creative Computing course. Use HTML and CSS to mock-up what this application would look like, without adding any interactivity. You must include:
+
+- Wireframe (add image to the directory);
+- Header, Navigation menu, main content and a footer;
+- The main content must be split into two or three columns;
+- Five demo items;
+- Your HTML should use semantically correct elements;
+- An external style.css file;
+- The use of at least one button;
+- The page does not need to be interactive;
+- You should focus on the structure and visual layout of the page, but also consider design too;
+- Commenting throughout.
