@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /* Sets the main font */
     font-weight: 400;
     margin: 0;
     padding: 0;
@@ -18,12 +18,12 @@ header h1 {
     font-weight: 700;
     margin: 0;
     display: inline-block;
-    padding-bottom: 0px;
-    border-bottom: 4px solid white;
+    padding-bottom: 0px; /* No padding under text for line */
+    border-bottom: 4px solid white; /* White underline */
 }
 
 nav ul {
-    list-style: none;
+    list-style: none; /* Removes bullet points */
     padding: 0;
     margin: 10px 0 0 0;
 }
@@ -35,7 +35,7 @@ nav ul li {
 
 nav a {
     color: #FFFFFF;
-    text-decoration: none;
+    text-decoration: none; /* Removes underline from links */
 }
 
 main {
@@ -69,7 +69,7 @@ main {
 }
 
 #lineup .images {
-    display: flex;
+    display: flex; /* Show images side by side */
     gap: 10px;
     margin-top: 20px;
 }
@@ -115,13 +115,13 @@ aside .lineup-images img {
 }
   
 .lineup h2 {
-    display: inline-block;
+    display: inline-block; /* Needed for underline to fit text */
     padding-bottom: 0px;
     border-bottom: 3px solid white;
 }
 
 .main_welc h2 {
-    display: inline-block;
-    border-bottom: 3px solid rgb(0, 0, 0);
-    padding-bottom: 0px;
+    display: inline-block; /* Heading size fits the text */
+    border-bottom: 3px solid rgb(0, 0, 0); /* Black underline */
+    padding-bottom: 0px; /* No extra space under heading */
 }
