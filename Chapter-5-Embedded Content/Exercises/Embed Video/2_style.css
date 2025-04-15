@@ -9,7 +9,7 @@ body {
 }
 
 video {
-  width: 80%;
+  width: 100%;
   max-width: 720px;
   border: 4px solid #ffd697;
   border-radius: 10px;
