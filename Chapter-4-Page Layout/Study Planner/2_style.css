@@ -2,24 +2,24 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #f4f4f4; /* Light gray background for the whole page */
+    color: #333; /* Dark gray text*/
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Makes the page layout vertical (top to bottom) */
     min-height: 100vh;
 }
 
 /* Header Styles */
 header {
-    background-color: #ddd;
-    padding: 15px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    background-color: #ddd; /* Light gray background */
+    padding: 15px 20px; /* Padding inside the header */
+    display: flex; /* Makes header content line up horizontally */
+    align-items: center; /* Vertically centers items */
+    justify-content: space-between; /* Puts space between left and right side */
 }
 
 .logo-menu {
-    display: flex;
+    display: flex; /* Groups logo + menu horizontally */
     align-items: center;
 }
 
@@ -34,20 +34,20 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 1.8em;
+    font-size: 1.8em; /* Main title size */
 }
 
 header h2 {
     margin: 0;
-    font-size: 1.2em;
+    font-size: 1.2em; /* Sub-title */
     color: #777;
 }
 
 nav ul {
-    list-style: none;
+    list-style: none; /* No bullets */
     padding: 0;
     margin: 0;
-    display: flex;
+    display: flex; /* Items line up horizontally */
 }
 
 nav ul li {
@@ -55,28 +55,28 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #333;
+    text-decoration: none; /* No underline */
+    color: #333; /* Dark gray links */
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #007bff;
+    color: #007bff; /* Blue on hover for interaction */
 }
 
 /*Main Content */
 main.container {
     display: grid;
-    grid-template-columns: 200px 1fr 1fr;
+    grid-template-columns: 200px 1fr 1fr; /* 3 columns: sidebar, two equal parts */
     gap: 20px;
     padding: 20px;
     background-color: #eee;
-    flex-grow: 1;
+    flex-grow: 1; /* Makes main stretch to fill page */
 }
 
 /* Weekly Goals */
 aside.weekly-goals {
-    background-color: #444;
+    background-color: #444; /* Dark background for contrast */
     color: #fff;
     padding: 15px;
     border-radius: 5px;
@@ -96,7 +96,7 @@ aside.weekly-goals ul {
 
 aside.weekly-goals li {
     margin-bottom: 8px;
-    display: flex;
+    display: flex; /* Checkbox + text side-by-side */
     align-items: center;
 }
 
@@ -130,7 +130,7 @@ aside.weekly-goals button.unchecked {
 .study-tasks,
 .more-items {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Stack items vertically */
 }
 
 .column-header {
@@ -150,7 +150,7 @@ aside.weekly-goals button.unchecked {
     background-color: #fffa65;
     padding: 15px;
     border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Light drop shadow */
     position: relative;
 }
 
