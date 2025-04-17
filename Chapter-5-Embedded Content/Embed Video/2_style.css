@@ -1,16 +1,16 @@
 body {
-  margin: 0;
+  margin: 0; /* Removes default spacing for full control */
   padding: 0;
   height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: center; /* Vertically centers content */
+  justify-content: center; /* Horizontally centers content */
   background-color: #825d4e;
 }
 
 video {
-  width: 100%;
-  max-width: 720px;
+  width: 100%; /* Video will fill any space in the container */
+  max-width: 720px; /* Cap on size */
   border: 4px solid #ffd697;
   border-radius: 10px;
   background-color: #fff;
