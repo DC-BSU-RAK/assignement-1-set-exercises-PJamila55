@@ -70,31 +70,31 @@ main {
 
 #lineup .images {
     display: flex; /* Show images side by side */
-    gap: 10px;
+    gap: 10px;  /* Space between images */
     margin-top: 20px;
 }
 
-#lineup .images img {
+#lineup .images img { /* Takes full width of container */
     width: 100%;
     height: auto;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 1 / 1; /* Makes each image a perfect square */
     object-fit: cover;
 }
 
 /* Footer */
 footer {
-    background-color: #8c15e9;
-    color: #FFFFFF;
+    background-color: #8c15e9; /* Purple background */
+    color: #FFFFFF; /* White text */
     text-align: center;
     padding: 10px;
     position: sticky;
-    bottom: 0;
-    width: 100%;
+    bottom: 0; /* Anchors it to the bottom */
+    width: 100%; /* Makes it stretch across the page */
 }
 
 aside .lineup-images {
-    display: flex;
-    justify-content: space-between;
+    display: flex; /* Puts images next to each other */
+    justify-content: space-between; /* Even space between them */
     gap: 10px;
 }
 
@@ -105,23 +105,23 @@ aside .lineup-images img {
 }
 
 .lineup ul {
-    list-style: none;
+    list-style: none; /* Removes default bullets */
     padding-left: 0;
 }
   
 .lineup ul li::before {
-    content: "- ";
+    content: "- "; /* Adds a dash before each item (like a manual bullet) */
     color: white;
 }
   
 .lineup h2 {
-    display: inline-block; /* Needed for underline to fit text */
+    display: inline-block;
     padding-bottom: 0px;
     border-bottom: 3px solid white;
 }
 
 .main_welc h2 {
-    display: inline-block; /* Heading size fits the text */
+    display: inline-block;  /* Keeps the underline right under the text */
     border-bottom: 3px solid rgb(0, 0, 0); /* Black underline */
-    padding-bottom: 0px; /* No extra space under heading */
+    padding-bottom: 0px;
 }
