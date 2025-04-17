@@ -1,3 +1,4 @@
+// List of sound clips with their button IDs and audio file names
 const sounds = [
     { id: "01", file: "ah-ha.mp3" },
     { id: "02", file: "dan.mp3" },
@@ -10,12 +11,15 @@ const sounds = [
   ];
   
   sounds.forEach(sound => {
+    // Find the matching button by ID (e.g. btn-01)
     const button = document.getElementById(`btn-${sound.id}`);
+    // Create a new audio element for the sound
     const audio = new Audio(`./audio/${sound.file}`);
   
+    // When the button is clicked:
     button.addEventListener("click", () => {
-      audio.currentTime = 0;
-      audio.play();
+      audio.currentTime = 0; // Rewind to the start (in case it was already playing)
+      audio.play(); // Play the sound
   
       button.classList.add("active");
       setTimeout(() => {
